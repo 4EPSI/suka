@@ -1,5 +1,68 @@
 // MAIN
-.main {
-	flex: 1 0 auto;
-	overflow: hidden;
+// .main {
+// 	flex: 1 0 auto;
+// 	overflow: hidden;
+// }
+.home {
+	background-image: url(../img/top_fon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100vh;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+	// display: flex;
+	// align-items: center;
+	// overflow: hidden;
+	&_title {
+		color: #fff;
+		font-size: 62px;
+		margin-bottom: 10px;
+	}
+	&_item {
+		color: #fff;
+		font-size: 44px;
+		margin-bottom: 20px;
+	}
+	&_text {
+		font-size: 18px;
+		color: #fff;
+		margin-bottom: 40px;
+	}
+	&_button {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: #fff;
+		border: 1px solid white;
+		border-radius: 100px;
+		display: inline-block;
+		text-align: center;
+		transition: all 0.3s ease;
+		margin-right: 15px;
+		// box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+		&:hover {
+			background: #7fdca2;
+			color: #fff;
+			border: none;
+		}
+	}
+}
+.quality {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	&_content {
+		display: flex;
+	}
+	&_title {
+		color: #010c39;
+		font-size: 45px;
+	}
+	&_figure {
+		transform: translate(-240px,-40px);
+	}
 }

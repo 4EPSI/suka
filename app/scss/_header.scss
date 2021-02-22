@@ -1,0 +1,10 @@
+// HEADER
+.header {
+    background: rgb(146, 115, 115);
+    &_grid {
+        display: grid;
+        grid-template-columns: 30% 100px 100px 100px 100px 300px 50px 1fr;
+        align-items: center;
+        width: 100%;
+    }
+}
