@@ -78,6 +78,14 @@
 	&_title {
 		color: #010c39;
 		font-size: 45px;
+		z-index: 1;
+	}
+	&_triangle {
+		width: 0;
+		height: 0;
+		border-top: 200px solid #f7ecfd;
+		border-left: 250px solid transparent;
+		transform: translate(-190px, -40px);
 	}
 	&_figure {
 		transform: translate(-240px,-40px);
@@ -278,11 +286,4 @@
 	&_button {
 		background: #7edca2;
 	}
-}
-.asa {
-    width: 0;
-    height: 0;
-    border-top: 200px solid red;
-    border-left: 200px solid transparent;
-    transform: translate(-190px, -40px);
 }
