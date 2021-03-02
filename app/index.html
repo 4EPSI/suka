@@ -27,29 +27,46 @@
 </head>
 <body>
 		<header class="header">
-		<div class="container">
-			<div class="header_grid">
-				<a href="#" class="logo">
-					<img src="img/logo.png" alt="logo">
-				</a>
-				<a href="#">Home</a>
-				<a href="#">Services</a>
-				<a href="#">Portfolio</a>
-				<a href="#">Pages</a>
-				<a href="#">Contact</a>
+		<!-- <div class="container"> -->
+			<div class="header_grid container">
+				<div>
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="header_menu">
+					<a href="#">Home</a>
+				</div>
+				<div class="header_menu">
+					<a href="#">Services</a>
+				</div>
+				<div class="header_menu">
+					<a href="#">Portfolio</a>
+				</div>
+				<div class="header_menu">
+					<a href="#">Pages</a>
+				</div>
+				<div class="header_menu">
+					<a href="#">Contact</a>
+				</div>
 
 
 
-				<div>eng</div>
+				<div class="header_tongue">
+					<div class="header_menu">Eng</div>
+					<i class="fas fa-chevron-down"></i>
+				</div>
 
 
 
-				<a href="#">
-					<i class="fas fa-user"></i>
-				</a>
+				<div class="header_menu">
+					<a class="header_content" href="#">
+						<i class="header_user fas fa-user"></i>
+					</a>
+				</div>
 
 			</div>
-		</div>
+		<!-- </div> -->
 	</header>
 
 
@@ -69,6 +86,10 @@
             <div>
                 <img src="img/left_top.png" alt="img">
             </div>
+        </div>
+        <div>
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
         </div>
     </div>
 </div>
@@ -441,8 +462,33 @@
 
         <!-- Contact Us -->
         <div class="contact_us">
-            <div>
-                <div class="our_portfolio_item">Contact Us</div>
+            <div class="contact_us_content">
+                <h2 class="contact_us_title">Contact Us</h2>
+                <div class="contact_us_shape">
+                    <img src="img/shape_bottom .png" alt="img">
+                </div>
+                <div class="contact_us_phone">
+                    <i class="fas fa-phone-volume"></i>
+                    <div>
+                        <div class="contact_us_item">Phone</div>
+                        <div class="contact_us_text">+0092 796 568 124</div>
+                    </div>
+                </div>
+                <div class="contact_us_email">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <div class="contact_us_item">Email</div>
+                        <div class="contact_us_text">support24@gmail.com</div>
+                    </div>
+                </div>
+                <div class="contact_us_adress">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <div class="contact_us_item">Address</div>
+                        <div class="contact_us_text">839 Plymouth Rd.</div>
+                        <div class="contact_us_text"> Tampa, FL 33604</div>
+                    </div>
+                </div>
             </div>
             <form action="#">
                 <div class="contact_us_grid">
@@ -473,7 +519,8 @@
                 <div class="contact_us_message">
                     <textarea class="contact_us_textarea"  name="message" placeholder="Message" required=""></textarea>
                 </div>
-                <a class="services_btn_content" href="#">Contact Today</a>
+                <button class="services_btn_content" type="submit">Contact Today</button>
+                <!-- <a class="services_btn_content" href="#">Contact Today</a> -->
             </form>
         </div>
 
@@ -482,9 +529,96 @@
 	</main>
 	<footer class="footer">
         <div class="container">
-            footer
+            <div class="footer_grid">
+                <div>
+                    <img src="img/vetrov.png" alt="">
+                </div>
+                <div>
+                    <img src="img/the.png" alt="img">
+                </div>
+                <div>
+                    <img src="img/sala.png" alt="img">
+                </div>
+                <div>
+                    <img src="img/deters.png" alt="img">
+                </div>
+                <div>
+                    <img src="img/visla.png" alt="img">
+                </div>
+                <div>
+                    <img src="img/okta.png" alt="img">
+                </div>
+            </div>
+            <div class="footer_content">
+                <div class="">
+                    <h2 class="footer_title">Join with the entrepreneur
+                        community for business.
+                    </h2>
+                    <form class="footer_form" action="#">
+                        <input class="footer_input" type="text"
+                        name="suka24@gmail.com"
+                        placeholder="suka24@gmail.com"
+                        required
+                        />
+                        <button class="footer_button" type="submit">Join Now</button>
+                    </form>
+                    <div class="footer_text">*Subscribe today for update.</div>
+                </div>
+                <div class="">
+                    <div class="footer_item">Support</div>
+                    <ul class="footer_text">
+                        <li class="footer_li">
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Outlook Plugings</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Live chatting</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div class="footer_item">About Us</div>
+                    <ul class="footer_text">
+                        <li class="footer_li">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Features items</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Live Streming</a>
+                        </li>
+                        <li class="footer_li">
+                            <a href="#">Privacy & Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div class="footer_item">Social Media</div>
+                    <div class="footer_social">
+                        <a class="footer_media" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="footer_media" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="footer_media" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="footer_media" href="#"><i class="fab fa-skype"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
+    <div class="basement">
+        <div class="container">
+            <div class="basement_grid">
+                <div class="footer_text">Copyright’2019. All Rights Reserved</div>
+                <div class="footer_text">452 Center Dr. Littleton, CO 80123</div>
+                <img src="img/Logo.png" alt="img">
+            </div>
+        </div>
+    </div>
 	<script src="libs/jquery/jquery.min.js"></script>
 	<!-- <script src="libs/bootstrap/js/popper.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>

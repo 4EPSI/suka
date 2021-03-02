@@ -1,11 +1,22 @@
 @import "variables";
 
 /* ==========  Desktop First  ========== */
+    /* MEDIA */
+@media (min-width: 922) {
+    .home_title {
+        font-size: 20px;
+    }
+}
+@media (min-width: 767) {
+    .home_title {
+        font-size: 20px;
+    }
+}
 
 /* ≥1200px */
-// @include media-breakpoint-down(lg) {
+@include media-breakpoint-down(lg) {
 
-// }
+}
 
 // /* ≥992px */
 // @include media-breakpoint-down(md) {
