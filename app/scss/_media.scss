@@ -328,7 +328,7 @@
         // top: 0;
         // left: 0;
         // right: 0;
-        // background: #fff;
+        background: linear-gradient(120deg, rgba(151,56,225,1) 0%, rgba(182,74,235,1) 100%);
         z-index: 3;
         height: 80px;
         position: fixed;
@@ -370,9 +370,13 @@
     .header_grid {
         font-size: 20px;
         margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
         color: black;
     }
-
+    .header_logo {
+        margin-left: 5px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .quality_statistics {

@@ -4,7 +4,8 @@
     grid-template-columns: 15% 8fr 70px 1fr;
     // background: green;
     position: absolute;
-    left: 45px;
+    // height: 80px;
+    left: 0;
     top: 0;
     right: 0;
     align-items: center;
@@ -12,6 +13,7 @@
     &_logo {
         height: 50px;
         width: 120px;
+        margin-left: 40px;
     }
     &_menu {
         // display: grid;
@@ -72,7 +74,7 @@
 .header.active {
     background: #fff;
     color: black;
-    // box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 0 8px 0 #0000004d;
 }
 // .header_logo {
 //     height: 100%;
