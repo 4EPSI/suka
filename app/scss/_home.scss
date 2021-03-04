@@ -399,25 +399,58 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
+	&_block {
+		width: 250px;
+	}
 	&_img {
-		margin-bottom: 20px;
+		// margin-bottom: 20px;
+		border-radius: 50px;
+		height: 250px;
+		width: 100%;
+		overflow: hidden;
+		display: flex;
+		transform: translate(0px, 80px);
+		position: relative;
+		z-index: 1;
 	}
 	&_neam {
 		font-size: 20px;
 		color: #fff;
 		margin-bottom: 10px;
+		margin-top: 40px;
 	}
 	&_manager {
 		font-size: 16px;
 		color: #fff;
 		margin-bottom: 20px;
 	}
+	&_color {
+		background: #fff;
+		height: 100px;
+		border-radius: 70px;
+		transform: translate(0, 0);
+	}
 	&_content {
 		background: #010c39;
-		height: 420px;
-		width: 250px;
+		height: 280px;
 		border-radius: 70px;
+		// height: 420px;
+		// width: 250px;
+		// border-radius: 70px;
 		text-align: center;
+		// position: relative;
+		// :before {
+		// 	content: '';
+		// 	position: absolute;
+		// 	top: 0;
+		// 	bottom: 0;
+		// 	left: 0;
+		// 	background: #fff;
+		// 	height: 100px;
+		// 	width: 250px;
+		// 	border-radius: 70px;
+		// 	transform: translate(0, 0);
+		// }
 	}
 	&_soc {
 		color: #c5c5c5;
