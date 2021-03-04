@@ -13,6 +13,40 @@ $(document).on('click', function (e) {
     e.stopPropagation();
 });
 
+// Top slider
+$('.home_slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    mouseDrag: false,
+    items: 1,
+    // navText: [
+    //     '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+    //     '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+    // ]
+});
+// Custom nav btns
+// $('.customNextBtn').click(function() {
+//     $(this).closest('.custom_slider').find('.owl-carousel').trigger('next.owl.carousel');
+// });
+// $('.customPrevBtn').click(function() {
+//     $(this).closest('.custom_slider').find('.owl-carousel').trigger('prev.owl.carousel');
+// });
+
+// // Case slider
+// $('.home_slider').owlCarousel({
+//     loop: true,
+//     margin: 10,
+//     nav: false,
+//     dots: true,
+//     mouseDrag: false,
+//     autoplay: true,
+//     autoplayTimeout: 5000,
+//     autoplayHoverPause: true,
+//     smartSpeed: 500,
+//     items: 1
+// });
 // Scroll to section
 // $('body').on('click', '.go_to', function () {
 //     var scroll_el = $(this).attr('href');
