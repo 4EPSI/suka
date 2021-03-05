@@ -26,6 +26,51 @@ $('.home_slider').owlCarousel({
     //     '<i class="fa fa-angle-right" aria-hidden="true"></i>'
     // ]
 });
+
+// our_portfolio_slider
+$('.our_portfolio_slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    mouseDrag: false,
+    items: 1,
+});
+
+
+// Video
+$('body').on('click', '.play', function (){
+    // $('.top_video')[0].paused ? $('.top_video')[0].play() : $('.top_video')[0].pause();
+
+    if ($('.top_video')[0].paused) {
+        $('.top_video')[0].play();
+    } else {
+        $('.top_video')[0].pause();
+    }
+});
+
+
+
+// jQuery( document ).ready(function($) {
+//     $('.myHTMLvideo').click(function() {
+//         this.paused ? this.play() : this.pause();
+//     });
+// });
+
+
+// $('video').trigger('play');
+// $('video').trigger('pause');
+
+// jQuery( document ).ready(function($) {
+//     $('.myHTMLvideo').click(function() {
+//         this.paused ? this.play() : this.pause();
+//     });
+// });
+
+// $('.top_section').click(function(){
+//     $('#movie1').play();
+//         });
+
 // Custom nav btns
 // $('.customNextBtn').click(function() {
 //     $(this).closest('.custom_slider').find('.owl-carousel').trigger('next.owl.carousel');
