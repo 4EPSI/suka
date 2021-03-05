@@ -47,8 +47,12 @@ $('body').on('click', '.play', function (){
     } else {
         $('.top_video')[0].pause();
     }
+    $(this).toggleClass('active');
 });
 
+// $('.color').on('click', function(){
+//     $(this).toggleClass('active');
+// });
 
 
 // jQuery( document ).ready(function($) {
