@@ -80,7 +80,9 @@
 <div id="services" class="quality">
     <div class="container">
         <div class="quality_page">
-            <img src="img/image_here.png" alt="img">
+            <div class="quality_img">
+                <img src="img/image_here.png" alt="img">
+            </div>
            <div>
                <div class="quality_item">Quality is the best</div>
                <div class="quality_content">
@@ -183,8 +185,20 @@
     <div class="container">
         <div class="team_grid">
             <div class="team_img">
+                <!-- video -->
+                <div class="top_section_video">
+                    <video class="top_video"loop playsinline ="img/top_bg.png">
+                        <source src="img/video_sample.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- <div class="top_section_video">
+                    <video autoplay muted loop playsinline poster="img/style1.jpg">
+                        <source src="img/video_sample.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+            <!-- video end -->
                 <!-- <div class="team_triangle"></div> -->
-                <i class="team_play fas fa-play-circle"></i>
+                <i class="play fas fa-play-circle"></i>
                 <!-- <img src="img/here.png" alt="img"> -->
             </div>
             <div class="team_content">
@@ -200,36 +214,114 @@
     <div class="container">
         <div class="quality_item">Our Portfolio</div>
         <h2 class="our_portfolio_item">Some work for our honorable clients.</h2>
-        <div class="our_portfolio_grid">
-            <div class="our_portfolio_block">
-                <div class="our_portfolio_content">
-                    <div class="our_portfolio_tile">Digital Marketing</div>
-                    <h2 class="our_portfolio_title">Market Analysis</h2>
-                    <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
-                    <div class="our_portfolio_img">
-                        <img src="img/fitness.png" alt="img">
+        <div class="owl-carousel  owl-theme our_portfolio_slider">
+            <div class="slider_item">
+                <div class="our_portfolio_grid">
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Digital Marketing</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/fitness.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/bee.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Web Development</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/tim.png" alt="img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="our_portfolio_block">
-                <div class="our_portfolio_content">
-                    <div class="our_portfolio_tile">Brand Identity</div>
-                    <h2 class="our_portfolio_title">Market Analysis</h2>
-                    <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
-                    <div class="our_portfolio_img">
-                        <img src="img/bee.png" alt="img">
+            <div class="slider_item">
+                <div class="our_portfolio_grid">
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Digital Marketing</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/fitness.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/bee.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Web Development</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/tim.png" alt="img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="our_portfolio_block">
-                <div class="our_portfolio_content">
-                    <div class="our_portfolio_tile">Brand Identity</div>
-                    <h2 class="our_portfolio_title">Web Development</h2>
-                    <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
-                    <div class="our_portfolio_img">
-                        <img src="img/tim.png" alt="img">
+            <div class="slider_item">
+                <div class="our_portfolio_grid">
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Digital Marketing</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/fitness.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Market Analysis</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/bee.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="our_portfolio_block">
+                        <div class="our_portfolio_content">
+                            <div class="our_portfolio_tile">Brand Identity</div>
+                            <h2 class="our_portfolio_title">Web Development</h2>
+                            <div class="our_portfolio_text">Volupta esse cllum doloe  nulla pariat officia deserunt.</div>
+                            <div class="our_portfolio_img">
+                                <img src="img/tim.png" alt="img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -532,22 +624,26 @@
                     <i class="fas fa-phone-volume"></i>
                     <div>
                         <div class="contact_us_item">Phone</div>
-                        <div class="contact_us_text">+0092 796 568 124</div>
+                        <a class="contact_us_text" href="tel:+0092 796 568 124">+0092 796 568 124</a>
+                        <!-- <a href="tel:+38 063 555 55 55"><i class="fas fa-phone-alt"></i> +38 063 555 55 55</a> -->
+                        <!-- <div class="contact_us_text">+0092 796 568 124</div> -->
                     </div>
                 </div>
                 <div class="contact_us_email">
                     <i class="fas fa-envelope"></i>
                     <div>
                         <div class="contact_us_item">Email</div>
-                        <div class="contact_us_text">support24@gmail.com</div>
+                        <a href="mailto:support24@gmail.com">support24@gmail.com</a>
                     </div>
                 </div>
                 <div class="contact_us_adress">
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
                         <div class="contact_us_item">Address</div>
-                        <div class="contact_us_text">839 Plymouth Rd.</div>
-                        <div class="contact_us_text"> Tampa, FL 33604</div>
+                        <a class="contact_us_text" href="https://goo.gl/maps/vRiiZbhYfSQEbPci6" target="_blank">839 Plymouth Rd.</a>
+                        <a class="contact_us_text" href="https://goo.gl/maps/vRiiZbhYfSQEbPci6" target="_blank">Tampa, FL 33604</a>
+                        <!-- <div class="contact_us_text">839 Plymouth Rd.</div> -->
+                        <!-- <div class="contact_us_text"> Tampa, FL 33604</div> -->
                     </div>
                 </div>
             </div>
